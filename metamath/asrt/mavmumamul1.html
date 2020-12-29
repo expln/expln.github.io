@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v7'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"( ) class N A B |- ph e. -> R = ` F ^m Base wff X. Y Z i j (/) .X. X .x. Fin Ring , E M setvar A. >. <. { } ps C K ch th P V /\\\\ maMul Mat maVecMul wcel mavmumamul1.r mavmumamul1.n mavmumamul1.m mavmumamul1.z mavmumamul1.y cxp mavmumamul1.x mavmumamul1.t mvmumamul1 c.x wph vi vj cmap cA cB cN c.xp cR wceq cX cY cZ crg syl2anc matbas2 cfn co mavmumamul1.b mavmumamul1.a cfv cbs eleqtrrd\",\"t\":\"Theorem\",\"n\":\"mavmumamul1\",\"d\":\"The multiplication of an NxN matrix with an N-dimensional vector\\n       corresponds to the matrix multiplication of an NxN matrix with an Nx1\\n       matrix.  (Contributed by AV, 14-Mar-2019.)\",\"v\":\"&%'%H3(%I%*3J%K3L3-%N%0%5%6%7B8B:%;%<%A%\",\"pa\":\")'.#&R#-$ ):.#-PE&?&?F9GD$ )<.#-R$E&?&D$ )(.#2/-$ )#*,-+>$ )#*,&+=$ )#*,;+#2/'$$ )#*,5+#(1&$$ )#*,6+#(1#&4F9G$$$\",\"r\":\")#*,#C8+&#5/8$.#869$,C7+&##;<5$/7$.#7#;:6$9$$$\",\"p\":[\"1¦¦13¦59¦¦0¦¦¦3*\",\"2¦¦13¦69¦¦0¦¦¦%;\",\"3¦¦13¦64¦¦0¦¦¦%(\",\"4¦¦13¦67¦¦0¦¦¦%-\",\"5¦¦13¦58¦¦0¦¦¦%<\",\"6¦¦13¦66¦¦0¦¦¦%:\",\"7¦¦13¦60¦¦0¦¦¦B7\",\"8¦¦13¦61¦¦0¦¦¦B8\",\"9¦¦13¦65¦¦0¦¦¦%&\",\"11¦¦13¦70¦¦0¦¦¦%5\",\"12¦¦13¦71¦¦0¦¦¦%6\",\"13¦¦29¦51¦¦0¦¦¦):.#-PE&?&?F9GD$\",\"14¦¦29¦56¦¦0¦¦¦)<.#-R$E&?&D$\",\"15¦¦29¦77¦¦0¦¦¦)(.#2/-$\",\"16¦¦29¦49¦¦0¦¦¦)#*,-+>$\",\"17¦¦29¦50¦¦0¦¦¦)#*,&+=$\",\"21¦¦13¦63¦¦0¦¦¦%'\",\"22¦¦4¦80¦¦0¦%2¦¦%2\",\"23¦89¦4¦79¦%' %0¦2¦%#0/'$¦' ' 0 2¦%#2/'$\",\"27¦,,¦4¦54¦%' %(¦2¦%#'4($¦' & ( &¦%#&4&$\",\"28¦¦4¦62¦¦0¦%1¦¦%1\",\"29¦&>?¦4¦76¦%' %( %0¦3¦%#'0($¦' ( ( #&4&$ 0 1¦%#(1#&4&$$\",\"30¦¦29¦55¦¦0¦¦¦)#*,;+#2/'$$\",\"33¦¦4¦75¦¦0¦%=¦¦%=\",\"34¦,D¦4¦48¦%' %(¦2¦3'+(¦' & ( =¦3&+=\",\"36¦¦4¦72¦¦0¦%>¦¦%>\",\"37¦'G¦4¦48¦%' %(¦2¦3'+(¦' - ( >¦3-+>\",\"38¦@:¦4¦68¦%' %(¦2¦3'.(¦' #(1#&4&$$ ( #2/'$¦3#(1#&4&$$.#2/'$\",\"46¦¦29¦78¦¦0¦¦¦)'.#&R#-$\",\"48¦8'&,GR#2¦42¦74¦%' %- %J %& %N )'.#&R#-$ )J.#2/-$¦5¦)##&+=O-+N$,#J1#&4&$$.#2/'$$¦& & ' ' J ( - - N >¦)##&+=O-+>$,#(1#&4&$$.#2/'$$\",\"49¦$EHI43R%¦42¦73¦3* 3H 3K 3L )#*,H$ )#*,K$ )##HOK$,L$¦4¦)#*,L$¦H &+= * * K -+> L #(1#&4&$$.#2/'$¦)#*,#(1#&4&$$.#2/'$$\",\"50¦$%:@AR&¦42¦81¦3* %' %( %I )#*,'+($ )#*,I.($¦4¦)#*,'+I$¦' ; ( #2/'$ I #(1#&4&$$ * *¦)#*,;+#(1#&4&$$$\",\"51¦¦29¦53¦¦0¦¦¦)#*,5+#(1&$$\",\"52¦¦29¦52¦¦0¦¦¦)#*,6+#(1#&4F9G$$$\",\"53¦$%&'()*+,,./012344R'R(R)¦42¦57¦3* %' %( %- %< %: B7 B8 %A %& %5 %6 ):.#-PEA?&?F9GD$ )<.#-R$EA?&D$ )(.#2/-$ )#*,-+>$ )#*,A+=$ )#*,&+=$ )#*,'+#(1#A4&$$$ )#*,5+#(1&$$ )#*,6+#(1#&4F9G$$$¦12¦)#*,#C8+&#5/8$.#869$,C7+A##'<5$/7$.#7#':6$9$$$¦5 5 & & 6 6 7 7 ' ; 8 8 ( ( * * : : < < - - A &¦)#*,#C8+&#5/8$.#869$,C7+&##;<5$/7$.#7#;:6$9$$$\"]}")
+</script>
+<script src="../v7/js/utils/all-imports.js"></script>
+</body>
+</html>

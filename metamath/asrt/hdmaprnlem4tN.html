@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v7'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"( ) class |- ` ph A { } -> v V B N e. U = W wff K C_ F C .0. H setvar LMod t \\\\ E x /\\\\ P ps ch th LSpan Base HL LHyp D L M Q s u DVecH wss 0g .+b S cv csn hdmaprnlem1.u hdmaprnlem1.ve hdmaprnlem1.v sseldd cdif LCDual hdmaprnlem1.t2 dvhlmod +g -. wph mapd vt vv snssd wcel cH cK cN cU cV cW HDMap syl2anc clmod c.0 cfv hdmaprnlem1.k ssdifssd hdmaprnlem1.h lspssv hdmaprnlem1.n\",\"t\":\"Theorem\",\"n\":\"hdmaprnlem4tN\",\"d\":\"Lemma for ~ hdmaprnN .  TODO:  This lemma doesn't quite pay for itself\\n         even though used 4 times.  Maybe prove this directly instead.\\n         (Contributed by NM, 27-May-2015.)  (New usage is discouraged.)\",\"v\":\"(5)%-<.%/%0%2%4%6%8%9%:%;%><A<D5E5F5K%L%M%N%O<P<R&%R'%\",\"pa\":\"&;3#J'6$ &23##R#'6$'4$ &.3#H'2$ &03#G'2$ &93##R/'6$'4$ &L3#G'9$ &M3##R5'6$'4$ &R'3##R@'6$'4$ &#(,#61IB41;$$ &#(,O1#K?*N+$$ &#(,-1.$ &#(,#M'#0'*-+$$3#L'*O+$$ &#(,P1.$ &#(,R3P1#0'*-+$$ &K3#H'9$ &N3#R%'9$ &:3#R%'2$ &R&3#R2'9$ &#(,>1##0'*-+$?*:+$$\",\"r\":\"&#(,>1.$\",\"p\":[\"1¦¦21¦63¦¦0¦¦¦5(\",\"2¦¦21¦66¦¦0¦¦¦<-\",\"3¦%¦6¦51¦<A¦1¦%A¦A -¦%-\",\"4¦&¦6¦52¦%)¦1¦%*)+¦) -¦%*-+\",\"5¦¦21¦71¦¦0¦¦¦%0\",\"6¦'(¦6¦79¦%) %8¦2¦%#8')$¦8 0 ) *-+¦%#0'*-+$\",\"7¦¦21¦78¦¦0¦¦¦%:\",\"8¦*¦6¦52¦%)¦1¦%*)+¦) :¦%*:+\",\"9¦)+¦6¦57¦%) %/¦2¦%#)?/$¦) #0'*-+$ / *:+¦%##0'*-+$?*:+$\",\"10¦¦21¦73¦¦0¦¦¦%.\",\"11¦¦21¦65¦¦0¦¦¦<>\",\"12¦.¦6¦51¦<A¦1¦%A¦A >¦%>\",\"16¦¦21¦72¦¦0¦¦¦%2\",\"17¦¦6¦77¦¦0¦%=¦¦%=\",\"18¦34¦6¦68¦%) %/¦2¦5)1/¦) 2 / =¦521=\",\"20¦'-¦6¦47¦%) %/¦2¦5)7/¦) *-+ / .¦5*-+7.\",\"22¦)-¦6¦47¦%) %/¦2¦5)7/¦) #0'*-+$ / .¦5#0'*-+$7.\",\"25¦¦21¦69¦¦0¦¦¦%;\",\"26¦¦21¦70¦¦0¦¦¦%6\",\"27¦¦21¦74¦¦0¦¦¦%4\",\"28¦¦29¦82¦¦0¦¦¦&;3#J'6$\",\"29¦¦29¦53¦¦0¦¦¦&23##R#'6$'4$\",\"30¦¦29¦80¦¦0¦¦¦&#(,#61IB41;$$\",\"31¦$3<=>?@A¦32¦60¦5( %2 %; %6 %4 &;3#J'6$ &23##R#'6$'4$ &#(,#61IB41;$$¦5¦&#(,21=$¦4 4 6 6 ( ( ; ; 2 2¦&#(,21=$\",\"34¦¦29¦54¦¦0¦¦¦&#(,-1.$\",\"35¦$&-E¦32¦67¦5( %) %/ &#(,)1/$¦3¦&#(,*)+7/$¦( ( ) - / .¦&#(,*-+7.$\",\"39¦¦29¦55¦¦0¦¦¦&.3#H'2$\",\"40¦¦29¦84¦¦0¦¦¦&03#G'2$\",\"41¦'(-3JK¦32¦83¦%2 %0 %. %4 &.3#H'4$ &03#G'4$¦4¦&##41=B27.$,#0'2$7.$¦4 2 . . 0 0 2 *-+¦&##21=B*-+7.$,#0'*-+$7.$\",\"42¦$579BFL¦32¦76¦5( 5D 5E 5F &#(,D$ &#(,E$ &##DBE$,F$¦4¦&#(,F$¦D 21= E *-+7. F #0'*-+$7. ( (¦&#(,#0'*-+$7.$\",\"43¦$)-+M¦32¦81¦5( %) %/ %9 &#(,)7/$¦4¦&#(,#)?9$7/$¦( ( 9 *:+ ) #0'*-+$ / .¦&#(,##0'*-+$?*:+$7.$\",\"44¦¦29¦59¦¦0¦¦¦&#(,>1##0'*-+$?*:+$$\",\"45¦$,-/NO¦32¦56¦5( %) %/ %9 &#(,)7/$ &#(,91)$¦4¦&#(,91/$¦( ( 9 > ) ##0'*-+$?*:+$ / .¦&#(,>1.$\"]}")
+</script>
+<script src="../v7/js/utils/all-imports.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v7'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"ph A ps x ( ) wff <-> / ]. [. B |- -> e. A. ch (. ->. ). class ,. P ta th setvar V F wsbc e12 wb vx wcel wi sbcbig wal biimpd in2 in1 wph idn2 idn1 wps cA spsbc cB\",\"t\":\"Theorem\",\"n\":\"sbcbiVD\",\"d\":\"Implication form of ~ sbcbiiOLD .\\n     The following User's Proof is a Virtual Deduction proof completed\\n     automatically by the tools program completeusersproof.cmd, which invokes\\n     Mel L. O'Cat's mmj2 and Norm Megill's Metamath Proof Assistant.\\n     ~ sbcbi is ~ sbcbiVD without virtual deductions and was automatically\\n     derived from ~ sbcbiVD .\\n     <HTML> <TABLE>\\n     <TR> <TD> 1::           <TD> ` |- (. A e. B ->. A e. B ).  `\\n     <TR> <TD> 2::           <TD> ` |- (. A e. B ,. A. x ( ph <-> ps ) `\\n     ` ->. A. x ( ph <-> ps ) ). `\\n     <TR> <TD> 3:1,2:        <TD> ` |- (. A e. B ,. A. x ( ph <-> ps ) `\\n     ` ->. [. A / x ]. ( ph <-> ps ) ). `\\n     <TR> <TD> 4:1,3:        <TD> ` |- (. A e. B ,. A. x ( ph <-> ps ) `\\n     ` ->. ( [. A / x ]. ph <-> [. A / x ]. ps ) ). `\\n     <TR> <TD> 5:4:          <TD> ` |- (. A e. B ->. ( A. x ( ph <-> ps ) `\\n     ` -> ( [. A / x ]. ph <-> [. A / x ]. ps ) ) ). `\\n     <TR> <TD> qed:5:        <TD> ` |- ( A e. B -> ( A. x ( ph <-> ps ) `\\n     ` -> ( [. A / x ]. ph <-> [. A / x ]. ps ) ) ) `\\n     </TABLE> </HTML>\\n     (Contributed by Alan Sare, 18-Mar-2012.)  (Proof modification is\\n     discouraged.)  (New usage is discouraged.)\",\"v\":\"#)3)$7%)&<:);)=7.7\",\"pa\":\"\",\"r\":\"/'$1.0'2&'#*%(0'-$+&,#*-$+&,%(((\",\"p\":[\"1¦¦27¦43¦¦0¦¦¦7$\",\"2¦¦27¦45¦¦0¦¦¦7.\",\"3¦$%¦1¦32¦7$ 7.¦2¦)$1.¦$ $ . .¦)$1.\",\"4¦¦27¦39¦¦0¦¦¦)#\",\"5¦¦27¦42¦¦0¦¦¦)%\",\"6¦'(¦1¦30¦)# )%¦2¦)'#*%(¦# # % %¦)'#*%(\",\"7¦¦27¦31¦¦0¦¦¦<&\",\"8¦)*¦1¦35¦)# <&¦2¦)2&#¦# '#*%( & &¦)2&'#*%(\",\"12¦'*$¦1¦28¦)# <& 7$¦3¦)-$+&,#¦# # $ $ & &¦)-$+&,#\",\"16¦(*$¦1¦28¦)# <& 7$¦3¦)-$+&,#¦# % $ $ & &¦)-$+&,%\",\"17¦/3¦1¦30¦)# )%¦2¦)'#*%(¦# -$+&,# % -$+&,%¦)'-$+&,#*-$+&,%(\",\"18¦+4¦1¦33¦)# )%¦2¦)'#0%(¦# 2&'#*%( % '-$+&,#*-$+&,%(¦)'2&'#*%(0'-$+&,#*-$+&,%((\",\"21¦)*$¦1¦28¦)# <& 7$¦3¦)-$+&,#¦# '#*%( $ $ & &¦)-$+&,'#*%(\",\"22¦&¦22¦41¦)#¦1¦/4#5#6¦# $1.¦/4$1.5$1.6\",\"23¦&+¦22¦40¦)# )%¦2¦/4#8%5%6¦# $1. % 2&'#*%(¦/4$1.82&'#*%(52&'#*%(6\",\"27¦)*$%¦22¦44¦)# <& 7$ 7=¦4¦/'$1=0'2&#0-$+&,#((¦# '#*%( $ $ & & = .¦/'$1.0'2&'#*%(0-$+&,'#*%(((\",\"28¦&&++89:>¦22¦29¦)# )% )3 ); ): /4#5%6 /4#835;6 /'%0';0:((¦5¦/4#835:6¦# $1. 3 2&'#*%( % $1. : -$+&,'#*%( ; 2&'#*%(¦/4$1.82&'#*%(5-$+&,'#*%(6\",\"34¦'(*$%¦22¦34¦)# )% <& 7$ 7=¦5¦/'$1=0'-$+&,'#*%(*'-$+&,#*-$+&,%(((¦# # $ $ % % & & = .¦/'$1.0'-$+&,'#*%(*'-$+&,#*-$+&,%(((\",\"35¦&84E¦22¦36¦)# )% )3 /'#0'%*3((¦3¦/'#0'%03((¦# $1. 3 '-$+&,#*-$+&,%( % -$+&,'#*%(¦/'$1.0'-$+&,'#*%(0'-$+&,#*-$+&,%(((\",\"36¦&&+849?F¦22¦29¦)# )% )3 ); ): /4#5%6 /4#835;6 /'%0';0:((¦5¦/4#835:6¦# $1. 3 2&'#*%( % $1. : '-$+&,#*-$+&,%( ; -$+&,'#*%(¦/4$1.82&'#*%(5'-$+&,#*-$+&,%(6\",\"37¦&+4G¦22¦37¦)# )% )3 /4#8%536¦3¦/4#5'%03(6¦# $1. 3 '-$+&,#*-$+&,%( % 2&'#*%(¦/4$1.5'2&'#*%(0'-$+&,#*-$+&,%((6\",\"38¦&5H¦22¦38¦)# )% /4#5%6¦2¦/'#0%(¦# $1. % '2&'#*%(0'-$+&,#*-$+&,%((¦/'$1.0'2&'#*%(0'-$+&,#*-$+&,%(((\"]}")
+</script>
+<script src="../v7/js/utils/all-imports.js"></script>
+</body>
+</html>

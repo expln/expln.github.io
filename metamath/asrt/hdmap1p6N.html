@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v7'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"( ) ` |- class = F ph -> K X , e. U W E C I V Y Z N { } .0. .+ D .+b H L M >. <. +g LSpan Base HL /\\\\ LCDual -. LHyp 0g mapd HDMap1 \\\\ wff DVecH hdmap1p6.y hdmap1p6.z hdmap1p6.x hdmap1p6.i hdmap1p6.h hdmap1p6.m hdmap1p6.n hdmap1p6.k hdmap1p6.l hdmap1p6.o hdmap1p6.p hdmap1p6.u hdmap1p6.v wph hdmap1l6 hdmap1p6.mn hdmap1p6.a hdmap1p6.f hdmap1p6.c hdmap1p6.d cC cD cF hdmap1p6.xn cH cI cK cL c.pl cM cN P cU cV cW cX cY cZ c.0 c.pb\",\"t\":\"Theorem\",\"n\":\"hdmap1p6N\",\"d\":\"(Convert ~ mapdh6N to use ` HDMap1 ` function.)  Part (6) of [Baer]\\n       p. 47 line 6.  Note that we use ` -. X e. ( N `` { Y , Z } ) ` which is\\n       equivalent to Baer's \\\"Fx ` i^i ` (Fy + Fz)\\\" by ~ lspdisjb .  TODO:  No\\n       longer used and should be deleted.  Use ~ hdmap1l6 instead.  Also delete\\n       unused ~ mapdh6N etc. leading up to this.  (Contributed by NM,\\n       17-May-2015.)  (New usage is discouraged.)\",\"v\":\")'*P,'-'0'1'3'4'5'6'7'8';'<'='>'?'@'A'\",\"pa\":\"&?(#K%,$ &0(##R#%,$%1$ &5(#F%0$ &<(#D%0$ &;(#L%0$ &8(#E%0$ &3(##I%,$%1$ &=(#F%3$ &>(#D%3$ &@(#E%3$ &A(##M%,$%1$ &4(##N%,$%1$ &#*+#,/GH1/?$$ &#*+)/=$ &#*+-/#5O9;:$$ &#*+6/5$ &#*+7/5$ &#*+J-/#8%96.7:$$ &#*+#A%#8%9-:$$(#@%9):$$\",\"r\":\"&#*+#4%C-.).#6<7$B$(##4%C-.).6B$>#4%C-.).7B$$$\",\"p\":[\"1¦¦6¦60¦¦0¦¦¦P*\",\"2¦¦6¦67¦¦0¦¦¦'3\",\"3¦¦6¦68¦¦0¦¦¦'=\",\"4¦¦6¦75¦¦0¦¦¦'<\",\"5¦¦6¦86¦¦0¦¦¦'>\",\"6¦¦6¦79¦¦0¦¦¦'0\",\"7¦¦6¦69¦¦0¦¦¦')\",\"8¦¦6¦71¦¦0¦¦¦'?\",\"9¦¦6¦72¦¦0¦¦¦'4\",\"10¦¦6¦73¦¦0¦¦¦',\",\"11¦¦6¦74¦¦0¦¦¦'@\",\"12¦¦6¦76¦¦0¦¦¦'A\",\"13¦¦6¦77¦¦0¦¦¦'8\",\"14¦¦6¦80¦¦0¦¦¦'5\",\"15¦¦6¦81¦¦0¦¦¦'1\",\"16¦¦6¦82¦¦0¦¦¦'-\",\"17¦¦6¦83¦¦0¦¦¦'6\",\"18¦¦6¦85¦¦0¦¦¦';\",\"19¦¦6¦84¦¦0¦¦¦'7\",\"20¦¦15¦51¦¦0¦¦¦&?(#K%,$\",\"21¦¦15¦58¦¦0¦¦¦&0(##R#%,$%1$\",\"22¦¦15¦59¦¦0¦¦¦&5(#F%0$\",\"23¦¦15¦57¦¦0¦¦¦&<(#D%0$\",\"24¦¦15¦56¦¦0¦¦¦&;(#L%0$\",\"25¦¦15¦53¦¦0¦¦¦&8(#E%0$\",\"26¦¦15¦65¦¦0¦¦¦&3(##I%,$%1$\",\"27¦¦15¦66¦¦0¦¦¦&=(#F%3$\",\"28¦¦15¦63¦¦0¦¦¦&>(#D%3$\",\"29¦¦15¦55¦¦0¦¦¦&@(#E%3$\",\"30¦¦15¦52¦¦0¦¦¦&A(##M%,$%1$\",\"31¦¦15¦50¦¦0¦¦¦&4(##N%,$%1$\",\"32¦¦15¦54¦¦0¦¦¦&#*+#,/GH1/?$$\",\"33¦¦15¦64¦¦0¦¦¦&#*+)/=$\",\"34¦¦15¦49¦¦0¦¦¦&#*+-/#5O9;:$$\",\"35¦¦15¦47¦¦0¦¦¦&#*+6/5$\",\"36¦¦15¦48¦¦0¦¦¦&#*+7/5$\",\"37¦¦15¦70¦¦0¦¦¦&#*+J-/#8%96.7:$$\",\"38¦¦15¦62¦¦0¦¦¦&#*+#A%#8%9-:$$(#@%9):$$\",\"39¦$%&'()*+,-./0123456789:;<=>?@ABCDEFGHI¦78¦61¦P* '3 '= '< '> '0 ') '? '4 ', '@ 'A '8 '5 '1 '- '6 '; '7 &?(#K%,$ &0(##R#%,$%1$ &5(#F%0$ &<(#D%0$ &;(#L%0$ &8(#E%0$ &3(##I%,$%1$ &=(#F%3$ &>(#D%3$ &@(#E%3$ &A(##M%,$%1$ &4(##N%,$%1$ &#*+#,/GH1/?$$ &#*+)/=$ &#*+-/#5O9;:$$ &#*+6/5$ &#*+7/5$ &#*+J-/#8%96.7:$$ &#*+#A%#8%9-:$$(#@%9):$$¦19¦&#*+#4%C-.).#6<7$B$(##4%C-.).6B$>#4%C-.).7B$$$¦) ) * * , , - - 0 0 1 1 3 3 4 4 5 5 6 6 7 7 8 8 ; ; < < = = > > ? ? @ @ A A¦&#*+#4%C-.).#6<7$B$(##4%C-.).6B$>#4%C-.).7B$$$\"]}")
+</script>
+<script src="../v7/js/utils/all-imports.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v7'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"x e. y A ( ) wff ph -> _om class suc ps |- B A. (/) setvar C_ E. /\\\\ _V P ch wcel th F wex wral cv com ralimi2 sylan2 wss ssex vex c0 ax-1 vx vy wa csuc wi peano5 exlimiv zfinf2 mp2b cvv eximi\",\"t\":\"Theorem\",\"n\":\"omex\",\"d\":\"The existence of omega (the class of natural numbers).  Axiom 7 of\\n       [TakeutiZaring] p. 43.  This theorem is proved assuming the Axiom of\\n       Infinity and in fact is equivalent to it, as shown by the reverse\\n       derivation ~ inf0 .\\n\\n       A finitist (someone who doesn't believe in infinity) could, without\\n       contradiction, replace the Axiom of Infinity by its denial\\n       ` -. _om e. _V ` ; this would lead to ` _om = On ` by ~ omon and\\n       ` Fin = _V ` (the universe of all sets) by ~ fineqv .  The finitist\\n       could still develop natural number, integer, and rational number\\n       arithmetic but would be denied the real numbers (as well as much of the\\n       rest of mathematics).  In deference to the finitist, much of our\\n       development is done, when possible, without invoking the Axiom of\\n       Infinity; an example is Peano's axioms ~ peano1 through ~ peano5 (which\\n       many textbooks prove more easily assuming Infinity).  (Contributed by\\n       NM, 6-Aug-1994.)\",\"v\":\"#4%4&-*):)<)/)1-\",\"pa\":\"\",\"r\":\"0,$8\",\"p\":[\"1¦¦3¦36¦¦0¦-3¦¦-3\",\"2¦¦26¦38¦¦0¦¦¦4#\",\"3¦%¦3¦29¦4#¦1¦-#¦# #¦-#\",\"4¦$&¦3¦24¦-& -1¦2¦)&$1¦& 3 1 #¦)3$#\",\"5¦¦26¦39¦¦0¦¦¦4%\",\"6¦(¦3¦29¦4#¦1¦-#¦# %¦-%\",\"7¦)¦3¦41¦-&¦1¦-.&¦& %¦-.%\",\"8¦*&¦3¦24¦-& -1¦2¦)&$1¦& .% 1 #¦).%$#\",\"10¦+(&¦3¦28¦)* 4# -&¦3¦)2#$&*¦# % & # * .%$#¦)2%$#.%$#\",\"11¦'-¦3¦40¦)* )/¦2¦)'*7/(¦* 3$# / 2%$#.%$#¦)'3$#72%$#.%$#(\",\"13¦.%¦3¦27¦)* 4#¦2¦)6#*¦# # * '3$#72%$#.%$#(¦)6#'3$#72%$#.%$#(\",\"14¦¦3¦30¦¦0¦-,¦¦-,\",\"15¦1&¦3¦33¦-& -1¦2¦)&51¦& , 1 #¦),5#\",\"17¦2%¦3¦27¦)* 4#¦2¦)6#*¦# # * ,5#¦)6#,5#\",\"19¦¦3¦47¦¦0¦-8¦¦-8\",\"20¦16¦3¦24¦-& -1¦2¦)&$1¦& , 1 8¦),$8\",\"23¦%(¦22¦45¦4# 4%¦2¦06#'3$#72%$#.%$#(¦# # % %¦06#'3$#72%$#.%$#(\",\"25¦)&¦3¦24¦-& -1¦2¦)&$1¦& % 1 #¦)%$#\",\"26¦<+¦3¦42¦)* )/¦2¦)'*+/(¦* %$# / .%$#¦)'%$#+.%$#(\",\"29¦=(1¦3¦28¦)* 4# -&¦3¦)2#$&*¦# % & , * '%$#+.%$#(¦)2%$,'%$#+.%$#(\",\"33¦)1¦3¦24¦-& -1¦2¦)&$1¦& % 1 ,¦)%$,\",\"34¦=D¦3¦37¦)* )/¦2¦0'*+'/+*((¦* '%$#+.%$#( / %$,¦0''%$#+.%$#(+'%$,+'%$#+.%$#(((\",\"35¦+=(&1E¦22¦31¦)* )/ 4# -& -1 0''#$&+*(+'#$1+/((¦5¦0'2#$&*+2#$1/(¦# % & # * .%$# / '%$#+.%$#( 1 ,¦0'2%$#.%$#+2%$,'%$#+.%$#((\",\"37¦(&¦22¦43¦4# -&¦2¦0''3$&72#$,'#$&+.#$&((+,5&(¦# % & #¦0''3$#72%$,'%$#+.%$#((+,5#(\",\"38¦-'@2FH¦22¦32¦)* )/ ): )< 0'*+:( 0''/7:(+<(¦4¦0''/7*(+<(¦* 2%$#.%$# : 2%$,'%$#+.%$#( < ,5# / 3$#¦0''3$#72%$#.%$#(+,5#(\",\"39¦.2%I¦22¦48¦)* )/ 4# 0'*+/(¦3¦0'6#*+6#/(¦# # * '3$#72%$#.%$#( / ,5#¦0'6#'3$#72%$#.%$#(+6#,5#(\",\"43¦%¦22¦35¦4#¦1¦0#$8¦# #¦0#$8\",\"44¦1&N¦22¦34¦-& -1 01$8¦2¦0'&51+&$8(¦& , 1 #¦0',5#+,$8(\",\"45¦27%O¦22¦44¦)* )/ 4# 0'*+/(¦3¦0'6#*+/(¦# # * ,5# / ,$8¦0'6#,5#+,$8(\",\"46¦047:JP¦22¦46¦)* )/ ): 0* 0'*+/( 0'/+:(¦3¦0:¦* 6#'3$#72%$#.%$#( : ,$8 / 6#,5#¦0,$8\"]}")
+</script>
+<script src="../v7/js/utils/all-imports.js"></script>
+</body>
+</html>

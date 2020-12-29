@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v7'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"class ( ) |- B A = ` L N R T F Q e. wff : P C Fin Ring /\\\\ .* X .^ E -> ph ps Mat Poly1 Base -onto-> -1-1-> -1-1-onto-> ch th .s mulGrp var1 pMatToMatPoly .g <-> wcel wfo sylanbrc pm2mpfo.c pm2mpfo.a pm2mpfo.b pm2mpfo.e pm2mpfo.l pm2mpfo df-f1o c.as c.ex cA cB cC wf1 cL wa cN cP cQ cR cT cX crg wf1o pm2mpfo.p pm2mpfo.m pm2mpfo.t pm2mpfo.q pm2mpfo.x cfn pm2mpf1\",\"t\":\"Theorem\",\"n\":\"pm2mpf1o\",\"d\":\"The transformation of polynomial matrices into polynomials over matrices\\n       is a 1-1 function mapping polynomial matrices onto polynomials over\\n       matrices.  (Contributed by AV, 14-Oct-2019.)\",\"v\":\"F2G2'#(#+#,#-#.#/#0#4#5#9#:#;#>2?2\",\"pa\":\"&4)$A*-% &5)$,@4% &')$B*5% &9)$H*0% &;)$L*$I*0%% &:)$J*(% &()$,@-% &0)$A*(% &+)$B*0% &.)$,K-%\",\"r\":\"&$$,168-17%=.3'E+%\",\"p\":[\"1¦¦12¦61¦¦0¦¦¦#,\",\"2¦¦5¦74¦¦0¦#6¦¦#6\",\"3¦$%¦5¦43¦#( #'¦2¦2(1'¦' 6 ( ,¦2,16\",\"4¦¦12¦64¦¦0¦¦¦#-\",\"5¦¦5¦67¦¦0¦#7¦¦#7\",\"6¦'(¦5¦43¦#( #'¦2¦2(1'¦' 7 ( -¦2-17\",\"7¦&)¦5¦60¦2> 2?¦2¦2$>8?%¦> ,16 ? -17¦2$,168-17%\",\"8¦¦12¦56¦¦0¦¦¦#'\",\"9¦¦12¦59¦¦0¦¦¦#+\",\"10¦¦12¦65¦¦0¦¦¦#.\",\"11¦+,-¦5¦58¦#( #' #/¦3¦2/3(D'¦' + ( ' / .¦2.3'D+\",\"15¦+,-¦5¦44¦#( #' #/¦3¦2/3(C'¦' + ( ' / .¦2.3'C+\",\"19¦+,-¦5¦68¦#( #' #/¦3¦2/3(E'¦' + ( ' / .¦2.3'E+\",\"20¦¦12¦55¦¦0¦¦¦#(\",\"22¦¦12¦57¦¦0¦¦¦#5\",\"23¦¦12¦62¦¦0¦¦¦#4\",\"24¦¦12¦63¦¦0¦¦¦#0\",\"27¦¦12¦54¦¦0¦¦¦#;\",\"28¦¦12¦53¦¦0¦¦¦#9\",\"31¦¦12¦66¦¦0¦¦¦#:\",\"32¦¦25¦69¦¦0¦¦¦&4)$A*-%\",\"33¦¦25¦46¦¦0¦¦¦&5)$,@4%\",\"34¦¦25¦48¦¦0¦¦¦&')$B*5%\",\"35¦¦25¦70¦¦0¦¦¦&9)$H*0%\",\"36¦¦25¦49¦¦0¦¦¦&;)$L*$I*0%%\",\"37¦¦25¦73¦¦0¦¦¦&:)$J*(%\",\"38¦¦25¦47¦¦0¦¦¦&()$,@-%\",\"39¦¦25¦72¦¦0¦¦¦&0)$A*(%\",\"40¦¦25¦71¦¦0¦¦¦&.)$,K-%\",\"41¦¦25¦50¦¦0¦¦¦&+)$B*0%\",\"42¦7+9:;'->?,$BCDEFGHIJKL¦17¦75¦#( #' #5 #4 #0 #- #. #; #9 #+ #, #: &4)$A*-% &5)$,@4% &')$B*5% &9)$H*0% &;)$L*$I*0%% &:)$J*(% &()$,@-% &0)$A*(% &.)$,K-% &+)$B*0%¦12¦&$$,168-17%=.3'D+%¦4 4 5 5 ' ' ( ( 9 9 : : + + ; ; , , - - . . 0 0¦&$$,168-17%=.3'D+%\",\"65¦7+9:;'->?,$BCDEFGHIJLK¦17¦51¦#( #' #5 #4 #0 #- #. #; #9 #+ #, #: &4)$A*-% &5)$,@4% &')$B*5% &9)$H*0% &;)$L*$I*0%% &:)$J*(% &()$,@-% &0)$A*(% &+)$B*0% &.)$,K-%¦12¦&$$,168-17%=.3'C+%¦4 4 5 5 ' ' ( ( 9 9 : : + + ; ; , , - - . . 0 0¦&$$,168-17%=.3'C+%\",\"69¦+,-¦5¦52¦#( #' #/¦3¦&$/3(E'M$/3(D'8/3(C'%%¦' + ( ' / .¦&$.3'E+M$.3'D+8.3'C+%%\",\"70¦*.26MR6R:¦17¦45¦2> 2? 2F 2G &$>=?% &$>=F% &$GM$?8F%%¦4¦&$>=G%¦F .3'C+ G .3'E+ > $,168-17% ? .3'D+¦&$$,168-17%=.3'E+%\"]}")
+</script>
+<script src="../v7/js/utils/all-imports.js"></script>
+</body>
+</html>

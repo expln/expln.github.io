@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v7'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"ph x y ( ) -> wff = A. setvar |- ps A ch th F P wal vx vy wi syl5 weq wph ax-5 ax-12\",\"t\":\"Theorem\",\"n\":\"wl-ax12v\",\"d\":\"This is essentially axiom ~ ax-12 weakened by additional restrictions on\\n       variables.  This theorem should be one of two theorems referencing\\n       ~ ax-12 directly.\\n\\n       Both restrictions on variables have their own value.  If for a moment we\\n       assume ` y ` could be set to ` x ` , then, after elimination of the\\n       tautology ` x = x ` , immediately we have ` ph -> A. x ph ` for all\\n       ` ph ` and ` x ` .  Any relevant logic model prohibits this.\\n\\n       The second restriction is not necessary, but a simplification that makes\\n       the following interpretation easier to see.  Since ` ph ` textually at\\n       most depends on ` x ` , we can look at it at some given 'fixed' ` y ` .\\n       This theorem now states that the truth value of ` ph ` will stay\\n       constant, as long as we 'vary ` x ` around ` y ` ' only such that\\n       ` x = y ` still holds.  Or in other words, equality is the finest\\n       grained logical expression.  If you cannot differ two sets by ` = ` ,\\n       you won't find a whatever sophisticated expression that does.  One might\\n       wonder how the described variation of ` x ` is possible at all.  Note\\n       that Metamath is a text processor that easily sees a difference between\\n       text chunks ` { x | -. x = x } ` and ` { y | -. y = y } ` .  Our usual\\n       interpretation is to abstract from textual variations of the same set,\\n       but we are free to interpret Metamath's formalism differently, and in\\n       fact let ` x ` run through all textual representations of sets.\\n\\n       Had we allowed ` ph ` to depend also on ` y ` , this idea is both harder\\n       to see, and it is unclear whether this extra freedom introduces effects\\n       not covered by other axioms.  (It does not, but at least I do not see\\n       this at once.)  (Contributed by Wolf Lammen, 8-Aug-2020.)\",\"v\":\"#)$,%,.)0)1)\",\"pa\":\"\",\"r\":\"-&$*%(&#(+$&$*%(#'''\",\"p\":[\"1¦¦15¦23¦¦0¦¦¦)#\",\"3¦¦15¦19¦¦0¦¦¦,%\",\"4¦$&¦12¦17¦)# ,$¦2¦)+$#¦# # $ %¦)+%#\",\"5¦¦15¦18¦¦0¦¦¦,$\",\"7¦(&¦16¦22¦,$ ,%¦2¦)$*%¦$ $ % %¦)$*%\",\"9¦*$¦12¦20¦)# ).¦2¦)&#(.'¦# $*% . #¦)&$*%(#'\",\"11¦,(¦12¦17¦)# ,$¦2¦)+$#¦# &$*%(#' $ $¦)+$&$*%(#'\",\"14¦$&¦12¦24¦)# ,$¦2¦-&#(+$#'¦# # $ %¦-&#(+%#'\",\"18¦$(&¦12¦25¦)# ,$ ,%¦3¦-&$*%(&+%#(+$&$*%(#'''¦# # $ $ % %¦-&$*%(&+%#(+$&$*%(#'''\",\"19¦$'*.15¦16¦21¦)# ). )0 )1 -&#(.' -&0(&.(1''¦4¦-&0(&#(1''¦# # . +%# 0 $*% 1 +$&$*%(#'¦-&$*%(&#(+$&$*%(#'''\"]}")
+</script>
+<script src="../v7/js/utils/all-imports.js"></script>
+</body>
+</html>

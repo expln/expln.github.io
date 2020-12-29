@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v7'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"A ( ) aleph ` x class ~~ wff B suc C_ /\\\\ ^m 2o { | } ph ps R |- -> F On <-> ch e. setvar C wbr P cfv alephexp2 wss c2o enen2 cmap cA con0 vx wcel cab syl wa wb cen csuc co cv cale bicomd\",\"t\":\"Theorem\",\"n\":\"gch-kn\",\"d\":\"The equivalence of two versions of the Generalized Continuum\\n       Hypothesis.  The right-hand side is the standard version in the\\n       literature.  The left-hand side is a version devised by Kannan Nambiar,\\n       which he calls the Axiom of Combinatorial Sets.  For the notation and\\n       motivation behind this axiom, see his paper, \\\"Derivation of Continuum\\n       Hypothesis from Axiom of Combinatorial Sets,\\\" available at\\n       ~ http://www.e-atheneum.net/science/derivation&#95;ch.pdf .  The\\n       equivalence of the two sides provides a negative answer to Open Problem\\n       2 in\\n       ~ http://www.e-atheneum.net/science/open&#95;problem&#95;print.pdf .\\n       The key idea in the proof below is to equate both sides of ~ alephexp2\\n       to the successor aleph using ~ enen2 .  (Contributed by NM,\\n       1-Oct-2004.)\",\"v\":\"#)5+6+7)(?:),)=+@)\",\"pa\":\"\",\"r\":\"8$#>;9$$&'-#%*2(3$(.$&'#%/(*$&'#%%4<$&'-#%*$10$&'#%%%%\",\"p\":[\"1¦¦23¦38¦¦0¦¦¦)#\",\"2¦¦0¦39¦¦0¦);¦¦);\",\"3¦$%¦0¦41¦)# ),¦2¦+#>,¦# # , ;¦+#>;\",\"5¦$¦0¦47¦)#¦1¦)-#¦# #¦)-#\",\"6¦¦0¦50¦¦0¦)&¦¦)&\",\"7¦()¦0¦32¦)# ):¦2¦)$:'#%¦# -# : &¦)$&'-#%\",\"8¦¦0¦35¦¦0¦)1¦¦)1\",\"11¦$)¦0¦32¦)# ):¦2¦)$:'#%¦# # : &¦)$&'#%\",\"12¦¦0¦37¦¦0¦)0¦¦)0\",\"13¦+./¦0¦48¦)# ), ):¦3¦)$#:,%¦# 1 : 0 , $&'#%¦)$10$&'#%%\",\"14¦¦0¦46¦¦0¦)*¦¦)*\",\"15¦*01¦0¦30¦)# ), )7¦3¦+#7,¦# $&'-#% 7 * , $10$&'#%%¦+$&'-#%*$10$&'#%%\",\"16¦¦23¦40¦¦0¦¦¦?(\",\"17¦3¦0¦49¦?(¦1¦)(¦( (¦)(\",\"18¦4.¦0¦34¦)# ),¦2¦+#.,¦# ( , $&'#%¦+(.$&'#%\",\"20¦4.1¦0¦30¦)# ), )7¦3¦+#7,¦# ( 7 * , $&'#%¦+(*$&'#%\",\"21¦57¦0¦44¦+5 +6¦2¦+$5/6%¦5 (.$&'#% 6 (*$&'#%¦+$(.$&'#%/(*$&'#%%\",\"23¦83¦0¦42¦+5 ?(¦2¦)2(354¦5 $(.$&'#%/(*$&'#%% ( (¦)2(3$(.$&'#%/(*$&'#%%4\",\"25¦*:1¦0¦30¦)# ), )7¦3¦+#7,¦# $&'-#% 7 * , 2(3$(.$&'#%/(*$&'#%%4¦+$&'-#%*2(3$(.$&'#%/(*$&'#%%4\",\"27¦0:1¦0¦30¦)# ), )7¦3¦+#7,¦# $10$&'#%% 7 * , 2(3$(.$&'#%/(*$&'#%%4¦+$10$&'#%%*2(3$(.$&'#%/(*$&'#%%4\",\"28¦2<¦0¦45¦+5 +6¦2¦+$5<6%¦5 $&'-#%*$10$&'#%% 6 $&'-#%*2(3$(.$&'#%/(*$&'#%%4¦+$$&'-#%*$10$&'#%%<$&'-#%*2(3$(.$&'#%/(*$&'#%%4%\",\"31¦3$¦31¦33¦?( )#¦2¦8$#>;9$10$&'#%%*2(3$(.$&'#%/(*$&'#%%4%¦# # ( (¦8$#>;9$10$&'#%%*2(3$(.$&'#%/(*$&'#%%4%\",\"32¦0:*¦31¦36¦)# ), )@¦3¦8$#*,9$@*#<@*,%%¦# $10$&'#%% , 2(3$(.$&'#%/(*$&'#%%4 @ $&'-#%¦8$$10$&'#%%*2(3$(.$&'#%/(*$&'#%%49$$&'-#%*$10$&'#%%<$&'-#%*2(3$(.$&'#%/(*$&'#%%4%%\",\"33¦&>?BC¦31¦43¦+5 +6 += 8$596% 8$69=%¦3¦8$59=%¦5 #>; 6 $10$&'#%%*2(3$(.$&'#%/(*$&'#%%4 = $$&'-#%*$10$&'#%%<$&'-#%*2(3$(.$&'#%/(*$&'#%%4%¦8$#>;9$$&'-#%*$10$&'#%%<$&'-#%*2(3$(.$&'#%/(*$&'#%%4%%\",\"34¦&2<D¦31¦51¦+5 +6 += 8$59$6<=%%¦3¦8$59$=<6%%¦5 #>; 6 $&'-#%*$10$&'#%% = $&'-#%*2(3$(.$&'#%/(*$&'#%%4¦8$#>;9$$&'-#%*2(3$(.$&'#%/(*$&'#%%4<$&'-#%*$10$&'#%%%%\"]}")
+</script>
+<script src="../v7/js/utils/all-imports.js"></script>
+</body>
+</html>
