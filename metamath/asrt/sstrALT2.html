@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"A ) ( B x C C_ -> wff e. ph ps |- class /\\\\ th ch A. P ta <-> setvar F wss wcel wi syl6an ssel2 wb wal wa vx simpr simpl mpsyl idd id dfss2 cv cC cB cA biimpr alrimiv\",\"t\":\"Theorem\",\"n\":\"sstrALT2\",\"d\":\"Virtual deduction proof of ~ sstr , transitivity of subclasses, Theorem\\n       6 of [Suppes] p. 23.  This theorem was automatically generated from\\n       ~ sstrALT2VD using the command file translate_without_overwriting.cmd .\\n       It was not minimized because the automated minimization excluding\\n       duplicates generates a minimized proof which, although not directly\\n       containing any duplicates, indirectly contains a duplicate.  That is,\\n       the trace back of the minimized proof contains a duplicate.  This is\\n       undesirable because some step(s) of the minimized proof use the proven\\n       theorem.  (Contributed by Alan Sare, 11-Sep-2011.)\\n       (Proof modification is discouraged.)  (New usage is discouraged.)\",\"v\":\"#0&0'8(0-+.+2+3+6+\",\"pa\":\"\",\"r\":\"/%%#)&1&)($*#)($\",\"p\":[\"1¦¦22¦41¦¦0¦¦¦0#\",\"2¦¦22¦39¦¦0¦¦¦0(\",\"3¦$%¦0¦23¦0# 0&¦2¦+#)&¦# # & (¦+#)(\",\"4¦¦22¦31¦¦0¦¦¦8'\",\"5¦'¦0¦38¦8'¦1¦0'¦' '¦0'\",\"7¦($¦0¦24¦0# 0&¦2¦+#,&¦# ' & #¦+',#\",\"9¦(%¦0¦24¦0# 0&¦2¦+#,&¦# ' & (¦+',(\",\"10¦*,¦0¦25¦+- +.¦2¦+%-*.$¦- ',# . ',(¦+%',#*',($\",\"12¦-'¦0¦29¦+- 8'¦2¦+4'-¦' ' - %',#*',($¦+4'%',#*',($\",\"13¦&/¦0¦28¦+- +.¦2¦+%-7.$¦- #)( . 4'%',#*',($¦+%#)(74'%',#*',($$\",\"15¦¦22¦40¦¦0¦¦¦0&\",\"16¦$2¦0¦23¦0# 0&¦2¦+#)&¦# # & &¦+#)&\",\"19¦2%¦0¦23¦0# 0&¦2¦+#)&¦# & & (¦+&)(\",\"20¦36¦0¦30¦+- +.¦2¦+%-1.$¦- #)& . &)(¦+%#)&1&)($\",\"24¦'$%¦18¦37¦8' 0# 0&¦3¦/%#)&74'%',#*',&$$¦# # & ( ' '¦/%#)(74'%',#*',($$\",\"26¦7-¦0¦25¦+- +.¦2¦+%-*.$¦- %#)&1&)($ . %',#*',($¦+%%#)&1&)($*%',#*',($$\",\"28¦(2¦0¦24¦0# 0&¦2¦+#,&¦# ' & &¦+',&\",\"29¦7¦18¦36¦+-¦1¦/%-*-$¦- %#)&1&)($¦/%%#)&1&)($*%#)&1&)($$\",\"30¦36¦18¦32¦+- +.¦2¦/%%-1.$*.$¦- #)& . &)(¦/%%#)&1&)($*&)($\",\"32¦36¦18¦33¦+- +.¦2¦/%%-1.$*-$¦- #)& . &)(¦/%%#)&1&)($*#)&$\",\"34¦7*¦18¦35¦+- +.¦2¦/%-*%.*.$$¦- %#)&1&)($ . ',#¦/%%#)&1&)($*%',#*',#$$\",\"37¦$2(¦18¦27¦0# 0& 0(¦3¦/%%#)&1(,#$*(,&$¦# # & & ( '¦/%%#)&1',#$*',&$\",\"38¦73**?CEH¦18¦26¦+- +. +3 +2 +6 /%-*.$ /%-*%3*2$$ /%%.12$*6$¦5¦/%-*%3*6$$¦- %#)&1&)($ . #)& 2 ',# 3 ',# 6 ',&¦/%%#)&1&)($*%',#*',&$$\",\"41¦2%(¦18¦27¦0# 0& 0(¦3¦/%%#)&1(,#$*(,&$¦# & & ( ( '¦/%%&)(1',&$*',($\",\"42¦76*?,AIL¦18¦26¦+- +. +3 +2 +6 /%-*.$ /%-*%3*2$$ /%%.12$*6$¦5¦/%-*%3*6$$¦- %#)&1&)($ . &)( 2 ',& 3 ',# 6 ',(¦/%%#)&1&)($*%',#*',($$\",\"44¦7-'M¦18¦43¦+- +. 8' /%-*.$¦3¦/%-*4'.$¦' ' - %#)&1&)($ . %',#*',($¦/%%#)&1&)($*4'%',#*',($$\",\"45¦&/¦18¦42¦+- +.¦2¦/%%-7.$*%.*-$$¦- #)( . 4'%',#*',($¦/%%#)(74'%',#*',($$*%4'%',#*',($*#)($$\",\"46¦07/&;OP¦18¦34¦+- +. +3 +2 /- /%.*3$ /%-*%3*2$$¦4¦/%.*2$¦- %#)(74'%',#*',($$ . %#)&1&)($ 2 #)( 3 4'%',#*',($¦/%%#)&1&)($*#)($\"]}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

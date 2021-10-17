@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"wff ps ph -> ) (\",\"t\":\"Axiom\",\"n\":\"wi\",\"d\":\"If ` ph ` and ` ps ` are wff's, so is ` ( ph -> ps ) ` or \\\" ` ph ` implies\\n     ` ps ` .\\\"  Part of the recursive definition of a wff.  The resulting wff\\n     is (interpreted as) false when ` ph ` is true and ` ps ` is false; it is\\n     true otherwise.  Think of the truth table for an OR gate with input ` ph `\\n     connected through an inverter.  After we define the axioms of\\n     propositional calculus ( ~ ax-1 , ~ ax-2 , ~ ax-3 , and ~ ax-mp ), the\\n     biconditional ( ~ df-bi ), the constant true ` T. ` ( ~ df-tru ), and the\\n     constant false ` F. ` ( ~ df-fal ), we will be able to prove these truth\\n     table values: ` ( ( T. -> T. ) <-> T. ) ` ( ~ truimtru ),\\n     ` ( ( T. -> F. ) <-> F. ) ` ( ~ truimfal ), ` ( ( F. -> T. ) <-> T. ) `\\n     ( ~ falimtru ), and ` ( ( F. -> F. ) <-> T. ) ` ( ~ falimfal ).  These\\n     have straightforward meanings, for example, ` ( ( T. -> T. ) <-> T. ) `\\n     just means \\\"the value of ` ( T. -> T. ) ` is ` T. ` \\\".\\n\\n     The left-hand wff is called the antecedent, and the right-hand wff is\\n     called the consequent.  In the case of ` ( ph -> ( ps -> ch ) ) ` , the\\n     middle ` ps ` may be informally called either an antecedent or part of the\\n     consequent depending on context.  Contrast with ` <-> ` ( ~ df-bi ),\\n     ` /\\\\ ` ( ~ df-an ), and ` \\\\/ ` ( ~ df-or ).\\n\\n     This is called \\\"material implication\\\" and the arrow is usually read as\\n     \\\"implies.\\\"  However, material implication is not identical to the meaning\\n     of \\\"implies\\\" in natural language.  For example, the word \\\"implies\\\" may\\n     suggest a causal relationship in natural language.  Material implication\\n     does not require any causal relationship.  Also, note that in material\\n     implication, if the consequent is true then the wff is always true (even\\n     if the antecedent is false).  Thus, if \\\"implies\\\" means material\\n     implication, it is true that \\\"if the moon is made of green cheese that\\n     implies that 5=5\\\" (because 5=5).  Similarly, if the antecedent is false,\\n     the wff is always true.  Thus, it is true that, \\\"if the moon made of green\\n     cheese that implies that 5=7\\\" (because the moon is not actually made of\\n     green cheese).  A contradiction implies anything ( ~ pm2.21i ).  In short,\\n     material implication has a very specific technical definition, and\\n     misunderstandings of it are sometimes called \\\"paradoxes of logical\\n     implication.\\\"\",\"v\":\"$#%#\",\"pa\":\"\",\"r\":\"#(%&$'\"}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

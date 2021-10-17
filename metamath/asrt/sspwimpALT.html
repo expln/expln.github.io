@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"A B x ~P ) ( e. ph wff -> C_ ps |- class P /\\\\ ch _V A. setvar T. C wss wcel F <-> wi id cpw wtru wal wa vx vex uunT1 sylan9ssr syl ex elpwi elpwgded dfss2 cvv cv cB cA biimpri alrimiv a1i\",\"t\":\"Theorem\",\"n\":\"sspwimpALT\",\"d\":\"If a class is a subclass of another class, then its power class is a\\n       subclass of that other class's power class.  Left-to-right implication\\n       of Exercise 18 of [TakeutiZaring] p. 18. ~ sspwimpALT is the completed\\n       proof in conventional notation of the Virtual Deduction proof\\n       ~ http://us.metamath.org/other/completeusersproof/sspwimpaltvd.html .\\n       It was completed manually.  The potential for automated derivation from\\n       the VD proof exists.  See ~ wvd1 for a description of Virtual Deduction.\\n       Some sub-theorems of the proof were completed using a unification\\n       deduction (e.g., the sub-theorem whose assertion is step 9 used\\n       ~ elpwgded ).  Unification deductions employ Mario Carneiro's\\n       metavariable concept.  Some sub-theorems were completed using a\\n       unification theorem (e.g., the sub-theorem whose assertion is step 5\\n       used ~ elpwi ).  (Contributed by Alan Sare, 3-Dec-2015.)\\n       (Proof modification is discouraged.)  (New usage is discouraged.)\",\"v\":\"#0$0%6*+.+3+80\",\"pa\":\"\",\"r\":\"/(#-$,&#-&$'\",\"p\":[\"1¦¦24¦44¦¦0¦¦¦0#\",\"2¦¦24¦43¦¦0¦¦¦0$\",\"3¦$%¦0¦22¦0# 0$¦2¦+#-$¦# # $ $¦+#-$\",\"5¦$¦0¦28¦0#¦1¦0&#¦# #¦0&#\",\"7¦%¦0¦28¦0#¦1¦0&#¦# $¦0&$\",\"8¦(*¦0¦22¦0# 0$¦2¦+#-$¦# &# $ &$¦+&#-&$\",\"9¦&+¦0¦26¦+* +.¦2¦+(*,.'¦* #-$ . &#-&$¦+(#-$,&#-&$'\",\"10¦¦24¦32¦¦0¦¦¦6%\",\"11¦-¦0¦42¦6%¦1¦0%¦% %¦0%\",\"12¦.(¦0¦23¦0# 0$¦2¦+#)$¦# % $ &#¦+%)&#\",\"13¦.*¦0¦23¦0# 0$¦2¦+#)$¦# % $ &$¦+%)&$\",\"14¦/0¦0¦26¦+* +.¦2¦+(*,.'¦* %)&# . %)&$¦+(%)&#,%)&$'\",\"16¦1-¦0¦30¦+* 6%¦2¦+5%*¦% % * (%)&#,%)&$'¦+5%(%)&#,%)&$'\",\"18¦&/¦0¦31¦+* +.¦2¦+(*2.'¦* #-$ . %)&#¦+(#-$2%)&#'\",\"19¦¦0¦29¦¦0¦+7¦¦+7\",\"21¦¦0¦41¦¦0¦04¦¦04\",\"22¦.8¦0¦23¦0# 0$¦2¦+#)$¦# % $ 4¦+%)4\",\"25¦-¦14¦33¦6%¦1¦/%)4¦% %¦/%)4\",\"26¦96<¦14¦47¦+* +. /*¦2¦/(.,*'¦* %)4 . 7¦/(7,%)4'\",\"30¦.$¦0¦22¦0# 0$¦2¦+#-$¦# % $ #¦+%-#\",\"31¦/¦14¦27¦+*¦1¦/(*,*'¦* %)&#¦/(%)&#,%)&#'\",\"33¦.$¦14¦38¦0# 0$¦2¦/(#)&$,#-$'¦# % $ #¦/(%)&#,%-#'\",\"35¦&¦14¦27¦+*¦1¦/(*,*'¦* #-$¦/(#-$,#-$'\",\"36¦/&.$%DF¦14¦35¦+* +. 0# 0$ 08 /(*,#-$' /(.,$-8'¦5¦/((.2*',#-8'¦# % $ # * %)&# . #-$ 8 $¦/((#-$2%)&#',%-$'\",\"37¦65.%=G¦14¦39¦+* +. 0# 0$ /(*,#)4' /(.,#-$'¦4¦/((*2.',#)&$'¦# % $ $ * 7 . (#-$2%)&#'¦/((72(#-$2%)&#'',%)&$'\",\"38¦50H¦14¦34¦+* +. /((72*',.'¦2¦/(*,.'¦* (#-$2%)&#' . %)&$¦/((#-$2%)&#',%)&$'\",\"39¦&/0I¦14¦37¦+* +. +3 /((*2.',3'¦3¦/(*,(.,3''¦* #-$ . %)&# 3 %)&$¦/(#-$,(%)&#,%)&$''\",\"40¦&1-J¦14¦46¦+* +. 6% /(*,.'¦3¦/(*,5%.'¦% % * #-$ . (%)&#,%)&$'¦/(#-$,5%(%)&#,%)&$''\",\"42¦-(*¦14¦40¦6% 0# 0$¦3¦/(#-$<5%(%)#,%)$''¦# &# $ &$ % %¦/(&#-&$<5%(%)&#,%)&$''\",\"43¦+3M¦14¦45¦+* +. /(*<.'¦2¦/(.,*'¦* &#-&$ . 5%(%)&#,%)&$'¦/(5%(%)&#,%)&$',&#-&$'\",\"44¦&3+KN¦14¦36¦+* +. +3 /(*,.' /(.,3'¦3¦/(*,3'¦* #-$ . 5%(%)&#,%)&$' 3 &#-&$¦/(#-$,&#-&$'\"]}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

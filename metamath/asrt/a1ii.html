@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"|- ph wff ps a1ii.1 E\",\"t\":\"Theorem\",\"n\":\"a1ii\",\"d\":\"(_Note_:  This inference rule and the next one, ~ idi , will normally\\n       never appear in a completed proof.  They can be ignored if you are using\\n       this database to assist learning logic - please start with the statement\\n       ~ wn instead.)\\n\\n       This is a technical inference to assist proof development.  It provides\\n       a temporary way to add an independent subproof to a proof under\\n       development, for later assignment to a normal proof step.\\n\\n       The metamath program's Proof Assistant requires proofs to be developed\\n       backwards from the conclusion with no gaps, and it has no mechanism that\\n       lets the user to work on isolated subproofs.  This inference provides a\\n       workaround for this limitation.  It can be inserted at any point in a\\n       proof to allow an independent subproof to be developed on the side, for\\n       later use as part of the final proof.\\n\\n       _Instructions_:  (1) Assign this inference to any unknown step in the\\n       proof.  Typically, the last unknown step is the most convenient, since\\n       'assign last' can be used.  This step will be replicated in hypothesis\\n       a1ii.1, from where the development of the main proof can continue.  (2)\\n       Develop the independent subproof backwards from hypothesis a1ii.2.  If\\n       desired, use a 'let' command to pre-assign the conclusion of the\\n       independent subproof to a1ii.2.  (3) After the independent subproof is\\n       complete, use 'improve all' to assign it automatically to an unknown\\n       step in the main proof that matches it.  (4) After the entire proof is\\n       complete, use 'minimize *' to clean up (discard) all ~ a1ii references\\n       automatically.\\n\\n       This inference was originally designed to assist importing partially\\n       completed Proof Worksheets from the mmj2 Proof Assistant GUI, but it can\\n       also be useful on its own.  Interestingly, no axioms are required for\\n       its proof.  It is the inference associated with ~ a1i .  (Contributed by\\n       NM, 7-Feb-2006.)\",\"v\":\"$%&%\",\"pa\":\"#$ #&\",\"r\":\"#$\",\"p\":[\"1¦¦5¦4¦¦0¦¦¦#$\"]}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"x ph ) ( |- wff setvar F/ E. A. <-> ->\",\"t\":\"Axiom\",\"n\":\"df-nf\",\"d\":\"Define the not-free predicate for wffs.  This is read \\\" ` x ` is not free\\n     in ` ph ` \\\".  Not-free means that the value of ` x ` cannot affect the\\n     value of ` ph ` , e.g., any occurrence of ` x ` in ` ph ` is effectively\\n     bound by a \\\"for all\\\" or something that expands to one (such as \\\"there\\n     exists\\\").  In particular, substitution for a variable not free in a wff\\n     does not affect its value ( ~ sbf ).  An example of where this is used is\\n     ~ stdpc5 .  See ~ nf5 for an alternate definition which involves nested\\n     quantifiers on the same variable.\\n\\n     Not-free is a commonly used constraint, so it is useful to have a notation\\n     for it.  Surprisingly, there is no common formal notation for it, so here\\n     we devise one.  Our definition lets us work with the not-free notion\\n     within the logic itself rather than as a metalogical side condition.\\n\\n     To be precise, our definition really means \\\"effectively not free,\\\" because\\n     it is slightly less restrictive than the usual textbook definition for\\n     not-free (which only considers syntactic freedom).  For example, ` x ` is\\n     effectively not free in the bare expression ` x = x ` (see ~ nfequid ),\\n     even though ` x ` would be considered free in the usual textbook\\n     definition, because the value of ` x ` in the expression ` x = x ` cannot\\n     affect the truth of the expression (and thus substitution will not change\\n     the result).\\n\\n     This definition of not-free tightly ties to the quantifier ` A. x ` .  At\\n     this state (no axioms restricting quantifiers yet) 'non-free' appears\\n     quite arbitrary.  Its intended semantics expresses single-valuedness\\n     (constness) across a parameter, but is only evolved as much as later\\n     axioms assign properties to quantifiers.  It seems the definition here is\\n     best suited in situations, where axioms are only partially in effect.  In\\n     particular, this definition more easily carries over to other logic models\\n     with weaker axiomization.\\n\\n     This predicate only applies to wffs.  See ~ df-nfc for a not-free\\n     predicate for class variables.  (Contributed by Mario Carneiro,\\n     24-Sep-2016.)  Converted to definition.  (Revised by BJ, 6-May-2019.)\",\"v\":\"#)$(\",\"pa\":\"\",\"r\":\"'&*#$-&+#$.,#$%%\"}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\") ( , x M F y class .+ setvar e. ` _V >. <. 1 + |-> |- seq rec _om = \\\"\",\"t\":\"Axiom\",\"n\":\"df-seq\",\"d\":\"Define a general-purpose operation that builds a recursive sequence\\n       (i.e. a function on the positive integers ` NN ` or some other upper\\n       integer set) whose value at an index is a function of its previous value\\n       and the value of an input sequence at that index.  This definition is\\n       complicated, but fortunately it is not intended to be used directly.\\n       Instead, the only purpose of this definition is to provide us with an\\n       object that has the properties expressed by ~ seq1 and ~ seqp1 .\\n       Typically, those are the main theorems that would be used in practice.\\n\\n       The first operand in the parentheses is the operation that is applied to\\n       the previous value and the value of the input sequence (second operand).\\n       The operand to the left of the parenthesis is the integer to start from.\\n       For example, for the operation ` + ` , an input sequence ` F ` with\\n       values 1, 1/2, 1/4, 1/8,... would be transformed into the output\\n       sequence ` seq 1 ( + , F ) ` with values 1, 3/2, 7/4, 15/8,.., so that\\n       ` ( seq 1 ( + , F ) `` 1 ) = 1 ` , ` ( seq 1 ( + , F ) `` 2 ) = ` 3/2,\\n       etc.  In other words, ` seq M ( + , F ) ` transforms a sequence ` F `\\n       into an infinite series. ` seq M ( + , F ) ~~> 2 ` means \\\"the sum of\\n       F(n) from n = M to infinity is 2.\\\"  Since limits are unique\\n       ( ~ climuni ), by ~ climdm the \\\"sum of F(n) from n = 1 to infinity\\\" can\\n       be expressed as ` ( ~~> `` seq 1 ( + , F ) ) ` (provided the sequence\\n       converges) and evaluates to 2 in this example.\\n\\n       Internally, the ` rec ` function generates as its values a set of\\n       ordered pairs starting at ` <. M , ( F `` M ) >. ` , with the first\\n       member of each pair incremented by one in each successive value.  So,\\n       the range of ` rec ` is exactly the sequence we want, and we just\\n       extract the range (restricted to omega) and throw away the domain.\\n\\n       This definition has its roots in a series of theorems from ~ om2uz0i\\n       through ~ om2uzf1oi , originally proved by Raph Levien for use with\\n       ~ df-exp and later generalized for arbitrary recursive sequences.\\n       Definition ~ df-sum extracts the summation values from partial (finite)\\n       and complete (infinite) series.  (Contributed by NM, 18-Apr-2005.)\\n       (Revised by Mario Carneiro, 4-Sep-2013.)\",\"v\":\"&,'*(*),+*\",\"pa\":\"\",\"r\":\"56'$+%(#9$7$$&-/%)-/41$&32#%$)+$(.$&32###0#%1'%$(.'#0#:8#\"}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

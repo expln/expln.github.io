@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"y z x setvar = -> ) ( |- A. -.\",\"t\":\"Axiom\",\"n\":\"ax-13\",\"d\":\"Axiom of Quantified Equality.  One of the equality and substitution axioms\\n     of predicate calculus with equality.\\n\\n     An equivalent way to express this axiom that may be easier to understand\\n     is ` ( -. x = y -> ( -. x = z -> ( y = z -> A. x y = z ) ) ) ` (see\\n     ~ ax13b ).  Recall that in the intended interpretation, our variables are\\n     metavariables ranging over the variables of predicate calculus (the object\\n     language).  In order for the first antecedent ` -. x = y ` to hold, ` x `\\n     and ` y ` must have different values and thus cannot be the same\\n     object-language variable (so they are effectively \\\"distinct variables\\\"\\n     even though no $d is present).  Similarly, ` x ` and ` z ` cannot be the\\n     same object-language variable.  Therefore, ` x ` will not occur in the wff\\n     ` y = z ` when the first two antecedents hold, so analogous to ~ ax-5 ,\\n     the conclusion ` ( y = z -> A. x y = z ) ` follows.  Note that ~ ax-5\\n     cannot prove this because its distinct variable ($d) requirement is not\\n     satisfied directly but only indirectly (outside of Metamath) by the\\n     argument above.\\n\\n     The original version of this axiom was ~ ax-c9 and was replaced with this\\n     shorter ~ ax-13 in December 2015.  The old axiom is proved from this one\\n     as theorem ~ axc9 .\\n\\n     The primary purpose of this axiom is to provide a way to introduce the\\n     quantifier ` A. x ` on ` y = z ` even when ` x ` and ` y ` are substituted\\n     with the same variable.  In this case, the first antecedent becomes\\n     ` -. x = x ` and the axiom still holds.\\n\\n     Although this version is shorter, the original version ~ axc9 may be more\\n     practical to work with because of the \\\"distinctor\\\" form of its\\n     antecedents.  A typical application of ~ axc9 is in ~ dvelimh which\\n     converts a distinct variable pair to the distinctor antecedent\\n     ` -. A. x x = y ` .  In particular, it is conjectured that it is not\\n     possible to prove ~ ax6 from ~ ax6v without this axiom.\\n\\n     This axiom can be weakened if desired by adding distinct variable\\n     restrictions on pairs ` x , z ` and ` y , z ` .  To show that, we add\\n     these restrictions to theorem ~ ax13v and use only ~ ax13v for further\\n     derivations.  Thus, ~ ax13v should be the only theorem referencing this\\n     axiom.  Other theorems can reference either ~ ax13v (preferred) or ~ ax13\\n     (if the stronger form is needed).\\n\\n     This axiom scheme is logically redundant (see ~ ax13w ) but is used as an\\n     auxiliary axiom scheme to achieve scheme completeness (i.e. so that all\\n     possible cases of bundling can be proved; see text linked at\\n     ~ mmtheorems.html#ax6dgen ).  It is not known whether this axiom can be\\n     derived from the others.  (Contributed by NM, 21-Dec-2015.)\\n     (New usage is discouraged.)\",\"v\":\"#&$&%&\",\"pa\":\"\",\"r\":\"+*-%'#(*#'$(,%#'$))\"}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

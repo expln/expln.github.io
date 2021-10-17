@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"A x R wff e. z w ) ( class ph y A. setvar /\\\\ ps E. -> = B |- \\\\/ card Or C_ dom -. _V Po F th ch cv V P wrex wral wcel wbr zornn0.1 zorn2g wss wpo wor wo wn wi weq wal wa vz vy vx vw numth3 mp3an1 cvv cdm ccrd cR cA ax-mp E\",\"t\":\"Theorem\",\"n\":\"zorn2\",\"d\":\"Zorn's Lemma of [Monk1] p. 117.  This theorem is equivalent to the Axiom\\n       of Choice and states that every partially ordered set ` A ` (with an\\n       ordering relation ` R ` ) in which every totally ordered subset has an\\n       upper bound, contains at least one maximal element.  The main proof\\n       consists of lemmas ~ zorn2lem1 through ~ zorn2lem7 ; this final piece\\n       mainly changes bound variables to eliminate the hypotheses of\\n       ~ zorn2lem7 .  (Contributed by NM, 6-Apr-1997.)  (Revised by Mario\\n       Carneiro, 9-May-2015.)\",\"v\":\"#,$0%,(0)0-&.02&6,A&B&D,\",\"pa\":\"7#'>\",\"r\":\"7++%?#1/)++);#1%:)*43$'#/(')+(%$8(5$***43$'#/.'#=$%.*\",\"p\":[\"1¦¦29¦60¦¦0¦¦¦,#\",\"2¦¦0¦58¦¦0¦,9¦¦,9\",\"3¦%¦0¦57¦,#¦1¦,<#¦# 9¦,<9\",\"4¦$&¦0¦37¦,# ,6¦2¦&#'6¦# # 6 <9¦&#'<9\",\"6¦¦29¦59¦¦0¦¦¦,%\",\"7¦$)¦0¦42¦,# ,%¦2¦&%?#¦# # % %¦&%?#\",\"8¦¦29¦53¦¦0¦¦¦0)\",\"9¦+¦0¦32¦0$¦1¦,$¦$ )¦,)\",\"11¦,$¦0¦41¦,# ,6¦2¦&#;6¦# ) 6 #¦&);#\",\"13¦,)¦0¦43¦,# ,%¦2¦&%:#¦# ) % %¦&%:)\",\"14¦.0¦0¦49¦&- &2¦2¦&+-12*¦- );# 2 %:)¦&+);#1%:)*\",\"15¦¦29¦50¦¦0¦¦¦0(\",\"16¦2¦0¦32¦0$¦1¦,$¦$ (¦,(\",\"17¦¦29¦52¦¦0¦¦¦0$\",\"18¦4¦0¦32¦0$¦1¦,$¦$ $¦,$\",\"20¦35)¦0¦38¦,# ,6 ,%¦3¦&#%6¦# ( % % 6 $¦&(%$\",\"23¦24¦34¦47¦0$ 0.¦2¦&$5.¦$ ( . $¦&(5$\",\"24¦7:¦0¦44¦&- &2¦2¦&+-82*¦- (%$ 2 (5$¦&+(%$8(5$*\",\"26¦;2,¦0¦36¦&- 0$ ,#¦3¦&/$'#-¦# ) $ ( - +(%$8(5$*¦&/(')+(%$8(5$*\",\"29¦=4$¦0¦35¦&- 0$ ,#¦3¦&3$'#-¦# # $ $ - /(')+(%$8(5$*¦&3$'#/(')+(%$8(5$*\",\"30¦1@¦0¦46¦&- &2¦2¦&+-42*¦- +);#1%:)* 2 3$'#/(')+(%$8(5$*¦&++);#1%:)*43$'#/(')+(%$8(5$**\",\"32¦A+¦0¦48¦&- 0$¦2¦&/$-¦$ ) - ++);#1%:)*43$'#/(')+(%$8(5$**¦&/)++);#1%:)*43$'#/(')+(%$8(5$**\",\"33¦¦29¦51¦¦0¦¦¦0.\",\"34¦D¦0¦32¦0$¦1¦,$¦$ .¦,.\",\"36¦5E)¦0¦38¦,# ,6 ,%¦3¦&#%6¦# $ % % 6 .¦&$%.\",\"37¦G¦0¦45¦&-¦1¦&=-¦- $%.¦&=$%.\",\"40¦HD$¦0¦36¦&- 0$ ,#¦3¦&/$'#-¦# # $ . - =$%.¦&/.'#=$%.\",\"43¦K4$¦0¦35¦&- 0$ ,#¦3¦&3$'#-¦# # $ $ - /.'#=$%.¦&3$'#/.'#=$%.\",\"45¦¦0¦56¦¦0¦,>¦¦,>\",\"46¦$P¦0¦37¦,# ,6¦2¦&#'6¦# # 6 >¦&#'>\",\"47¦¦62¦39¦¦0¦¦¦7#'>\",\"50¦$P¦34¦54¦,# ,D¦2¦7+#'D4#'<9*¦# # D >¦7+#'>4#'<9*\",\"51¦R#'R$R'¦0¦61¦&- &2 7- 7+-42*¦2¦72¦- #'> 2 #'<9¦7#'<9\",\"58¦4D2+$)¦34¦40¦0$ 0. 0( 0) ,# ,%¦6¦7++#'<91%?#1/)++);#1%:)*43$'#/(')+(%$8(5$***43$'#/.'#=$%.*¦# # $ $ % % ( ( ) ) . .¦7++#'<91%?#1/)++);#1%:)*43$'#/(')+(%$8(5$***43$'#/.'#=$%.*\",\"59¦'*CNR(R/¦34¦55¦&- &2 &B &A 7- 7++-121B*4A*¦4¦7++21B*4A*¦- #'<9 2 %?# A 3$'#/.'#=$%. B /)++);#1%:)*43$'#/(')+(%$8(5$**¦7++%?#1/)++);#1%:)*43$'#/(')+(%$8(5$***43$'#/.'#=$%.*\"]}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

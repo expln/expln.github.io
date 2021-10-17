@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"A class , B } { >. <. ) ( |- ` (/) ndx = e. TopSet C Base 9 1 K F TopOn P J _V wff ps ph D cop V cpr cfv U. TopSp Top -> wcel opeq1i E tsetndx toponunii preq12i indistpsx.k indistpsx.a indistopon indistop eqtr4i eltpsi cvv cts ctopon cnx cbs cK cA c9 c1 c0 basendx ax-mp\",\"t\":\"Theorem\",\"n\":\"indistpsx\",\"d\":\"The indiscrete topology on a set ` A ` expressed as a topological space,\\n       using explicit structure component references.  Compare with ~ indistps\\n       and ~ indistps2 .  The advantage of this version is that the actual\\n       function for the structure is evident, and ~ df-ndx is not needed, nor\\n       any other special definition outside of basic set theory.  The\\n       disadvantage is that if the indices of the component definitions\\n       ~ df-base and ~ df-tset are changed in the future, this theorem will\\n       also have to be changed.  Note:  This theorem has hard-coded structure\\n       indices for demonstration purposes.  It is not intended for general use;\\n       use ~ indistps instead.  (New usage is discouraged.)  (Contributed by\\n       FL, 19-Jul-2006.)\",\"v\":\"#$&$4$8$9$<$?>@>A$C$\",\"pa\":\"-#2= -81(*7%#)%*6%(/%#')'\",\"r\":\"-82G\",\"p\":[\"1¦¦22¦57¦¦0¦¦¦$#\",\"2¦¦0¦60¦¦0¦$/¦¦$/\",\"4¦%$¦0¦33¦$# $&¦2¦$(#%&'¦# / & #¦$(/%#'\",\"5¦¦22¦56¦¦0¦¦¦$8\",\"7¦¦0¦59¦¦0¦$7¦¦$7\",\"9¦*$¦0¦31¦$# $&¦2¦$*#%&)¦# 7 & #¦$*7%#)\",\"10¦¦0¦58¦¦0¦$6¦¦$6\",\"11¦-'¦0¦31¦$# $&¦2¦$*#%&)¦# 6 & (/%#'¦$*6%(/%#')\",\"12¦,.¦0¦33¦$# $&¦2¦$(#%&'¦# *7%#) & *6%(/%#')¦$(*7%#)%*6%(/%#')'\",\"13¦¦0¦54¦¦0¦$0¦¦$0\",\"14¦¦0¦55¦¦0¦$5¦¦$5\",\"15¦01¦0¦34¦$# $9¦2¦$,9.#+¦# 0 9 5¦$,5.0+\",\"17¦2$¦0¦31¦$# $&¦2¦$*#%&)¦# ,5.0+ & #¦$*,5.0+%#)\",\"19¦¦0¦52¦¦0¦$3¦¦$3\",\"20¦06¦0¦34¦$# $9¦2¦$,9.#+¦# 0 9 3¦$,3.0+\",\"21¦7'¦0¦31¦$# $&¦2¦$*#%&)¦# ,3.0+ & (/%#'¦$*,3.0+%(/%#')\",\"22¦48¦0¦33¦$# $&¦2¦$(#%&'¦# *,5.0+%#) & *,3.0+%(/%#')¦$(*,5.0+%#)%*,3.0+%(/%#')'\",\"23¦¦41¦45¦¦0¦¦¦-81(*7%#)%*6%(/%#')'\",\"26¦¦24¦61¦¦0¦-,5.0+17¦¦-,5.0+17\",\"27¦2*$=¦24¦40¦$# $& $4 -#1&¦3¦-*#%4)1*&%4)¦# ,5.0+ & 7 4 #¦-*,5.0+%#)1*7%#)\",\"29¦¦24¦42¦¦0¦-,3.0+16¦¦-,3.0+16\",\"30¦7-'@¦24¦40¦$# $& $4 -#1&¦3¦-*#%4)1*&%4)¦# ,3.0+ & 6 4 (/%#'¦-*,3.0+%(/%#')1*6%(/%#')\",\"31¦4,8.>A¦24¦44¦$# $& $4 $A -#1& -41A¦4¦-(#%4'1(&%A'¦# *,5.0+%#) & *7%#) 4 *,3.0+%(/%#') A *6%(/%#')¦-(*,5.0+%#)%*,3.0+%(/%#')'1(*7%#)%*6%(/%#')'\",\"32¦(/9:B¦24¦49¦$# $& $4 -#1& -41&¦3¦-#14¦# 8 & (*7%#)%*6%(/%#')' 4 (*,5.0+%#)%*,3.0+%(/%#')'¦-81(*,5.0+%#)%*,3.0+%(/%#')'\",\"35¦¦0¦51¦¦0¦$=¦¦$=\",\"36¦$F¦0¦39¦$# $&¦2¦>#2&¦# # & =¦>#2=\",\"38¦¦0¦53¦¦0¦$:¦¦$:\",\"39¦$I¦0¦34¦$# $9¦2¦$,9.#+¦# # 9 :¦$,:.#+\",\"40¦'J¦0¦39¦$# $&¦2¦>#2&¦# (/%#' & ,:.#+¦>(/%#'2,:.#+\",\"41¦¦41¦46¦¦0¦¦¦-#2=\",\"44¦$F¦24¦47¦$# $C¦2¦-,#2CI(/%#'2,:.#++¦# # C =¦-,#2=I(/%#'2,:.#++\",\"45¦GKLO¦0¦62¦>@ >? -@ -,@I?+¦2¦-?¦? (/%#'2,:.#+ @ #2=¦-(/%#'2,:.#+\",\"46¦$'P¦24¦43¦$& $< -<2,:.&+¦2¦-&1F<¦& # < (/%#'¦-#1F(/%#'\",\"48¦$¦24¦48¦$#¦1¦-(/%#'2H¦# #¦-(/%#'2H\",\"49¦$'(CR#R%¦24¦50¦$# $< $8 -81(*,5.0+%#)%*,3.0+%<)' -#1F< -<2H¦3¦-82G¦# # 8 8 < (/%#'¦-82G\"]}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

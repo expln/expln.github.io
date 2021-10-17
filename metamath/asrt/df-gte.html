@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"|- `' >_ = <_\",\"t\":\"Axiom\",\"n\":\"df-gte\",\"d\":\"Define the 'greater than or equal' predicate over the reals.  Defined in\\n     ISO 80000-2:2009(E) operation 2-7.10.  It is used as a primitive in the\\n     \\\"NIST Digital Library of Mathematical Functions\\\" , front introduction,\\n     \\\"Common Notations and Definitions\\\" section at\\n     ~ http://dlmf.nist.gov/front/introduction#Sx4 .  This relation is merely\\n     the converse of the 'less than or equal to' relation defined by ~ df-le .\\n\\n     We do not write this as ` ( x >_ y <-> y <_ x ) ` , and similarly we do\\n     not write `` > `` as ` ( x > y <-> y < x ) ` , because these are not\\n     definitional axioms as understood by mmj2 (those definitions will be\\n     flagged as being \\\"potentially non-conservative\\\").  We could write them\\n     this way:\\n     ` |- > = { <. x , y >. | ( ( x e. RR* /\\\\ y e. RR* ) /\\\\ y < x ) } ` and\\n     ` |- >_ = { <. x , y >. | ( ( x e. RR* /\\\\ y e. RR* ) /\\\\ y <_ x ) } ` but\\n     these are very complicated.  This definition of ` >_ ` , and the similar\\n     one for ` > ` ( ~ df-gt ), are a bit strange when you see them for the\\n     first time, but these definitions are much simpler for us to process and\\n     are clearly conservative definitions.  (My thanks to Mario Carneiro for\\n     pointing out this simpler approach.)  See ~ gte-lte for a more\\n     conventional expression of the relationship between ` < ` and ` > ` .  As\\n     a stylistic issue, set.mm prefers 'less than' instead of 'greater than' to\\n     reduce the number of conversion steps.  Thus, we discourage its use, but\\n     include its definition so that there _is_ a formal definition of this\\n     symbol.\\n\\n     (Contributed by David A. Wheeler, 10-May-2015.)\\n     (New usage is discouraged.)\",\"v\":\"\",\"pa\":\"\",\"r\":\"#%&$'\"}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>

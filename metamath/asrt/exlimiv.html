@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"ph x ps wff E. |- -> ) ( setvar ch P F wex A wps wph vx syl exlimiv.1 eximi ax5e E\",\"t\":\"Theorem\",\"n\":\"exlimiv\",\"d\":\"Inference form of Theorem 19.23 of [Margaris] p. 90, see ~ 19.23 .\\n\\n       See ~ exlimi for a more general version requiring more axioms.\\n\\n       This inference, along with its many variants such as ~ rexlimdv , is\\n       used to implement a metatheorem called \\\"Rule C\\\" that is given in many\\n       logic textbooks.  See, for example, Rule C in [Mendelson] p. 81, Rule C\\n       in [Margaris] p. 40, or Rule C in Hirst and Hirst's _A Primer for Logic\\n       and Proof_ p. 59 (PDF p. 65) at\\n       ~ http://www.appstate.edu/~~hirstjl/primer/hirst.pdf .  In informal\\n       proofs, the statement \\\"Let ` C ` be an element such that...\\\" almost\\n       always means an implicit application of Rule C.\\n\\n       In essence, Rule C states that if we can prove that some element ` x `\\n       exists satisfying a wff, i.e. ` E. x ph ( x ) ` where ` ph ( x ) ` has\\n       ` x ` free, then we can use ` ph ( C ) ` as a hypothesis for the proof\\n       where ` C ` is a new (fictitious) constant not appearing previously in\\n       the proof, nor in any axioms used, nor in the theorem to be proved.  The\\n       purpose of Rule C is to get rid of the existential quantifier.\\n\\n       We cannot do this in Metamath directly.  Instead, we use the original\\n       ` ph ` (containing ` x ` ) as an antecedent for the main part of the\\n       proof.  We eventually arrive at ` ( ph -> ps ) ` where ` ps ` is the\\n       theorem to be proved and does not contain ` x ` .  Then we apply\\n       ~ exlimiv to arrive at ` ( E. x ph -> ps ) ` .  Finally, we separately\\n       prove ` E. x ph ` and detach it with modus ponens ~ ax-mp to arrive at\\n       the final theorem ` ps ` .  (Contributed by NM, 21-Jun-1993.)  Remove\\n       dependencies on ~ ax-6 and ~ ax-8 .  (Revised by Wolf Lammen,\\n       4-Dec-2017.)\",\"v\":\"#&$,%&-&\",\"pa\":\"(+#)%*\",\"r\":\"(+'$#)%*\",\"p\":[\"1¦¦12¦16¦¦0¦¦¦&#\",\"2¦¦12¦17¦¦0¦¦¦,$\",\"3¦$%¦14¦13¦&# ,$¦2¦&'$#¦# # $ $¦&'$#\",\"4¦¦12¦15¦¦0¦¦¦&%\",\"6¦'%¦14¦13¦&# ,$¦2¦&'$#¦# % $ $¦&'$%\",\"11¦¦22¦19¦¦0¦¦¦(+#)%*\",\"12¦$'%.¦11¦20¦&# &% ,$ (+#)%*¦3¦(+'$#)'$%*¦# # $ $ % %¦(+'$#)'$%*\",\"15¦'%¦11¦21¦&# ,$¦2¦(+'$#)#*¦# % $ $¦(+'$%)%*\",\"16¦&)'/2¦11¦18¦&# &% &- (+#)%* (+%)-*¦3¦(+#)-*¦# '$# % '$% - %¦(+'$#)%*\"]}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>
