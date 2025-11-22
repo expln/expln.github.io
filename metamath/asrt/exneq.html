@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="react-container"></div>
+<script>
+const version = 'v8'
+const relPathToRoot = '..'
+const viewComponent = 'MetamathAssertionView'
+const decompressionFunction = 'decompressAssertionDto'
+const viewProps = JSON.parse("{\"s\":\"x y = wff z ph -. -> ) ( w ps |- setvar E. ch P A weq th wn F wex con3d spimevw ax7v1 wi vz vy vx vw syl6 pm2.61i exlimivv exexneq equeuclr ax-mp a1d\",\"t\":\"Theorem\",\"n\":\"exneq\",\"d\":\"Given any set (the \\\" ` y ` \\\" in the statement), there exists a set not\\n       equal to it.\\n\\n       The same statement without disjoint variable condition is false, since\\n       we do not have ` E. x -. x = x ` .  This theorem is proved directly from\\n       set theory axioms (no class definitions) and does not depend on\\n       ~ ax-ext , ~ ax-sep , or ~ ax-pow nor auxiliary logical axiom schemes\\n       ~ ax-10 to ~ ax-13 .  See ~ dtruALT for a shorter proof using more\\n       axioms, and ~ dtruALT2 for a proof using ~ ax-pow instead of ~ ax-pr .\\n       (Contributed by NM, 7-Nov-2006.)  Avoid ~ ax-13 .  (Revised by BJ,\\n       31-May-2019.)  Avoid ~ ax-8 .  (Revised by SN, 21-Sep-2023.)  Avoid\\n       ~ ax-12 .  (Revised by Rohan Ridenour, 9-Oct-2024.)  Use ~ ax-pr instead\\n       of ~ ax-pow .  (Revised by BTernaryTau, 3-Dec-2024.)  Extract this\\n       result from the proof of ~ dtru .  (Revised by BJ, 2-Jan-2025.)\",\"v\":\"#0$0'0(&-0.&2&6&\",\"pa\":\"\",\"r\":\"/1#)#%$\",\"p\":[\"1¦¦21¦27¦¦0¦¦¦0'\",\"2¦¦21¦30¦¦0¦¦¦0-\",\"3¦$%¦16¦18¦0# 0$¦2¦&#%$¦# ' $ -¦&'%-\",\"4¦&¦17¦20¦&(¦1¦&)(¦( '%-¦&)'%-\",\"6¦'%¦17¦22¦&( 0#¦2¦&1#(¦# - ( )'%-¦&1-)'%-\",\"8¦)$¦17¦22¦&( 0#¦2¦&1#(¦# ' ( 1-)'%-¦&1'1-)'%-\",\"9¦¦21¦29¦¦0¦¦¦0#\",\"10¦¦21¦28¦¦0¦¦¦0$\",\"11¦,-¦16¦18¦0# 0$¦2¦&#%$¦# # $ $¦&#%$\",\"12¦.¦17¦20¦&(¦1¦&)(¦( #%$¦&)#%$\",\"14¦/,¦17¦22¦&( 0#¦2¦&1#(¦# # ( )#%$¦&1#)#%$\",\"17¦$%¦16¦34¦0# 0$¦2¦/1#1$)#%$¦# ' $ -¦/1'1-)'%-\",\"22¦%-¦16¦18¦0# 0$¦2¦&#%$¦# - $ $¦&-%$\",\"23¦'1¦17¦26¦&( &.¦2¦&,(*.+¦( )'%- . 1#)#%$¦&,)'%-*1#)#%$+\",\"26¦$-¦16¦18¦0# 0$¦2¦&#%$¦# ' $ $¦&'%$\",\"27¦=¦17¦20¦&(¦1¦&)(¦( '%$¦&)'%$\",\"31¦%$-¦16¦35¦0# 0$ 0'¦3¦/,#%'*,$%'*$%#++¦# - $ ' ' $¦/,-%$*,'%$*'%-++\",\"32¦9=&B¦16¦23¦&( &. &2 /,(*,.*2++¦3¦/,(*,)2*).++¦( -%$ . '%$ 2 '%-¦/,-%$*,)'%-*)'%$++\",\"37¦,$¦16¦18¦0# 0$¦2¦&#%$¦# # $ '¦&#%'\",\"41¦,$-¦16¦25¦0# 0$ 0'¦3¦/,#%$*,#%'*$%'++¦# # $ ' ' $¦/,#%'*,#%$*'%$++\",\"42¦H.=L¦16¦23¦&( &. &2 /,(*,.*2++¦3¦/,(*,)2*).++¦( #%' . #%$ 2 '%$¦/,#%'*,)'%$*)#%$++\",\"43¦>/,$M¦16¦24¦&( &. 0# 0$ /,#%$*,(*.++¦4¦/,(*1#.+¦# # $ ' ( )'%$ . )#%$¦/,)'%$*1#)#%$+\",\"44¦9'>1CN¦16¦31¦&( &. &2 &6 /,(*,.*2++ /,2*6+¦4¦/,(*,.*6++¦( -%$ . )'%- 2 )'%$ 6 1#)#%$¦/,-%$*,)'%-*1#)#%$++\",\"45¦9¦17¦20¦&(¦1¦&)(¦( -%$¦&)-%$\",\"50¦,%¦16¦18¦0# 0$¦2¦&#%$¦# # $ -¦&#%-\",\"54¦,%-¦16¦25¦0# 0$ 0'¦3¦/,#%$*,#%'*$%'++¦# # $ - ' $¦/,#%-*,#%$*-%$++\",\"55¦R'.9R+¦16¦23¦&( &. &2 /,(*,.*2++¦3¦/,(*,)2*).++¦( #%- . #%$ 2 -%$¦/,#%-*,)-%$*)#%$++\",\"56¦P/,%R,¦16¦24¦&( &. 0# 0$ /,#%$*,(*.++¦4¦/,(*1#.+¦# # $ - ( )-%$ . )#%$¦/,)-%$*1#)#%$+\",\"57¦P1'R-¦16¦37¦&( &. &2 /,(*.+¦3¦/,(*,2*.++¦( )-%$ . 1#)#%$ 2 )'%-¦/,)-%$*,)'%-*1#)#%$++\",\"58¦9:OR.¦16¦32¦&( &. /,(*.+ /,)(*.+¦2¦/.¦( -%$ . ,)'%-*1#)#%$+¦/,)'%-*1#)#%$+\",\"59¦'1$%R/¦16¦33¦&( &. 0# 0$ /,(*.+¦4¦/,1#1$(*.+¦# ' $ - ( )'%- . 1#)#%$¦/,1'1-)'%-*1#)#%$+\",\"60¦+14R0¦17¦36¦&( &. /( /,(*.+¦2¦/.¦( 1'1-)'%- . 1#)#%$¦/1#)#%$\"]}")
+</script>
+<script src="../v8/js/utils/all-imports.js"></script>
+</body>
+</html>
